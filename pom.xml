@@ -37,9 +37,26 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>main.java.Main</mainClass>
+                            <mainClass>java.main.Main</mainClass>
                         </manifest>
                     </archive>
+                </configuration>
+            </plugin>
+            <!-- plugins for making command "maven exec:java" work -->
+            <!-- maven-compiler-plugin and  org.codehaus.mojo-->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>main.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
