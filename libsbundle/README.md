@@ -23,11 +23,11 @@
 <plugins>
 ```
 
-### If you want to build a jar file to run a Main class with a main method and you app uses external libs, you will need to also use the [**maven-jar-plugin**](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin)
+### If you want to build a jar file to run a Main class with a main method and your app uses external libs, you will need to also include the [**maven-jar-plugin**](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin)
 ```xml
 <plugins>
     <plugin>
-        <!--        Maven plugin to bundle all your jar libs together-->
+        <!-- Maven plugin to bundle all your jar libs together-->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.2.4</version>
