@@ -1,11 +1,4 @@
-# minimalMavenPomFile
-This is a sample of the minimal pom.xml file for adding dependencies, building project
+# Maven File Samples by use cases
 
-<b>
-At the line 7 and 11, replace <code>project_name</code> to the name of your project!<br>
-At the line 40 of the pom.xmll, replace:<br>
-<code>main.java.Main</code><br>
- to the path of the class that holds the public static void main method. This will make jar file  to be runnable
- by the command: <code>java -jar "nameOfJar.jar"</code>
+* [Maven Plugin To Bundle all required libraries and produces a jar](libsbundle/README.md)
 
-</br>
