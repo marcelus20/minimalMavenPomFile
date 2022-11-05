@@ -62,8 +62,7 @@
 </plugins>
 ```
 
-###
-Plugins Maven Repository Links:
+### Plugins Maven Repository Links:
 * [**maven-shade-plugin**](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-shade-plugin)
 * [**maven-jar-plugin**](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin)
 
