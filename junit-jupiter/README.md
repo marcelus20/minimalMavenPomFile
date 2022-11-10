@@ -42,7 +42,7 @@ In the user defined properties area, add this.
         <!-- Test Attributes -->
         <junit.jupiter.version>5.9.1</junit.jupiter.version>
         <junit.jupiter.api.version>5.9.1</junit.jupiter.api.version>
-        <mvn.surefire.plugin.version>5.9.1</mvn.surefire.plugin.version>
+        <mvn.surefire.plugin.version>2.22.2</mvn.surefire.plugin.version>
         <mvn.failsafe.plugin.version>2.22.2</mvn.failsafe.plugin.version>
         <!-- End of test attributes -->
 ```
